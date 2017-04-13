@@ -1,0 +1,19 @@
+{
+  "name": "HttpServer",
+  "description": "Http services",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": {
+    "name": "Andrew Chen",
+    "email": ""
+  }
+}
