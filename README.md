@@ -1,12 +1,11 @@
 ## Name
-Exam code
-
-## Product
-
+Exam Demo
 
 ## License
 
 ## Development Note
+* The project include develop server built by node.js.
+* You also can open file: app/rakuten/index.html by browser directly.
 
 #### Development
 * Node.js
@@ -15,13 +14,10 @@ Exam code
 #### Folder
 * app: Development files
 * tools: Development tools
-* release: The final version
 
 #### Commands
 * python main.py install: Init the project to install libs of node.js
 * python main.py / python main.py start: to run local httpserver
-* python main.py min: minimize and combine the js files into min.js
-* python main.py release: Release final version into release folder
 
 ## Release Note
 

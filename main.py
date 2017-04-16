@@ -183,25 +183,14 @@ class Run():
 		Popen(new_window_command)
 		
 	def mini(self):
-		os.system("node " + os.path.join("tools", "combineJs", "app.js") + " " + self.app)
+		''''''
 				
 	def release(self):
-		#Tool().copyConf("remote")
-		self.mini();
-		sourceDir = "./app/" + self.app + "/js/"
-		tagDir = "./release/"
-		filename = "toplink." + self.app +".min.js"
-		file = sourceDir + "/" + filename
-		if os.path.isfile(file):
-			shutil.copy(file, tagDir)
+		''''''
 						
 	def install(self):
 		''''''
 		# Check current working directory.
-		os.chdir("./tools/combineJs")
-		if self.param != None and "clean" in self.param:
-			Tool().deleFolder("node_modules")
-		os.system("npm install")
 		os.chdir("../server")
 		if self.param != None and "clean" in self.param:
 			Tool().deleFolder("node_modules")
